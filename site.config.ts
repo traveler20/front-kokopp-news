@@ -1,25 +1,25 @@
 export const config = {
-  siteMeta: {
-    title: "Team Blog Hub",
-    teamName: "catnose Inc.",
-    description: "RSS based blog starter kit for teams.",
-  },
-  siteRoot:
-    process.env.NODE_ENV === "production"
-      ? "https://team-blog-hub.vercel.app"
-      : "http://localhost:3000",
-  headerLinks: [
-    {
-      title: "About",
-      href: "/about",
-    },
-    {
-      title: "Company",
-      href: "https://zenn.dev/catnose99/articles/cb72a73368a547756862",
-    },
-    {
-      title: "GitHub",
-      href: "https://github.com/catnose99/team-blog-hub",
-    },
-  ],
+	siteMeta: {
+		title: "BLOG HUB",
+		teamName: "traveler20 Inc.",
+		description: "各メディアで発信しているブログなどをまとめています。",
+	},
+	siteRoot:
+		process.env.NODE_ENV === "production"
+			? "https://team-blog-hub.vercel.app"
+			: "http://localhost:3000",
+	headerLinks: [
+		{
+			title: "About",
+			href: "/about",
+		},
+		{
+			title: "Company",
+			href: "https://yurukei-career.com/",
+		},
+		{
+			title: "Twitter",
+			href: "https://twitter.com/yurukei20",
+		},
+	],
 };
