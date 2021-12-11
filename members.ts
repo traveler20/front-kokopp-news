@@ -7,7 +7,7 @@ export const members: Member[] = [
 		role: "CTO",
 		bio: "WEBデザイナー／WEBディベロッパー。",
 		avatarSrc: "/avatars/traveler20.jpg",
-		sources: ["https://traveler20.site"],
+		sources: ["https://traveler20.site/feed/"],
 		// includeUrlRegex: "medium.com|zenn.dev",
 		twitterUsername: "traveler20site",
 		githubUsername: "traveler20",
