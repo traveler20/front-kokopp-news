@@ -10,11 +10,15 @@ export const config = {
       : "http://localhost:3000",
   headerLinks: [
     {
+      title: "Home",
+      href: "/",
+    },
+    {
       title: "About",
       href: "/about",
     },
     {
-      title: "Company",
+      title: "Site",
       href: "https://kawagoe.traveler20.site/",
     },
     {

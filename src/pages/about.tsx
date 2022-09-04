@@ -12,21 +12,14 @@ const Page: NextPage = () => {
           <h1 className="about__title">About</h1>
           <div className="about__body">
             <p>
-              このサイトはチームのためのブログスターター
-              <a href="https://github.com/catnose99/team-blog-hub">
-                Team Blog Hub
-              </a>
-              のデモです。ブログのRSSのURLを登録することで、チームメンバーの投稿を一覧にまとめて表示します。
+              川越の新店舗情報やローカルニュースを配信しているメディアサイトをRSSフィードで集約しているサイトになります。
+              <br />
+              記事一覧から読みたい記事を選択すると、該当記事のサイトに遷移して読むことができます。
             </p>
+            <p>ぜひ川越の最新情報のキャッチアップにお役立てください。</p>
             <p>
-              Medium、note、Zenn、Qiita、はてなブログなど、RSSフィードを取得できるサイトであれば、メンバーは好きな場所に投稿できます。
-            </p>
-            <p>
-              詳しくは
-              <a href="https://zenn.dev/catnose99/articles/cb72a73368a547756862">
-                チーム個々人のテックブログをRSSで集約するサイトをNext.jsで作った
-              </a>
-              をご覧ください。
+              当サイトの運営者が別で運営しているサイトは
+              <a href="https://kawagoe.traveler20.site/">こちら</a>。
             </p>
           </div>
           <div className="about__actions">
