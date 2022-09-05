@@ -32,14 +32,14 @@ const MemberCard: React.FC<{ member: Member }> = ({ member }) => {
 const Page: NextPage = () => {
   return (
     <>
-      <PageSEO title="Members" path="/members" />
+      <PageSEO title="掲載メディア一覧" path="/members" />
       <ContentWrapper>
         <section className="members">
           <h1 className="members__title">
-            Members{" "}
-            <span className="members__title-team">
+            掲載メディア一覧{" "}
+            {/* <span className="members__title-team">
               @ {config.siteMeta.teamName}
-            </span>
+            </span> */}
           </h1>
           <div className="members__cards">
             {members.map((member, i) => (

@@ -6,20 +6,33 @@ import { PageSEO } from "@src/components/PageSEO";
 const Page: NextPage = () => {
   return (
     <>
-      <PageSEO title="About" path="/about" />
+      <PageSEO title="当サイト概要" path="/about" />
       <ContentWrapper>
         <section className="about">
-          <h1 className="about__title">About</h1>
+          <h1 className="about__title">当サイト概要</h1>
           <div className="about__body">
+            <p>&nbsp;</p>
+            <h2>当サイトについて</h2>
             <p>
               川越の新店舗情報やローカルニュースを配信しているメディアサイトをRSSフィードで集約しているサイトになります。
               <br />
               記事一覧から読みたい記事を選択すると、該当記事のサイトに遷移して読むことができます。
             </p>
             <p>ぜひ川越の最新情報のキャッチアップにお役立てください。</p>
+            <p>&nbsp;</p>
+            <h2>お問い合わせ</h2>
             <p>
-              当サイトの運営者が別で運営しているサイトは
-              <a href="https://kawagoe.traveler20.site/">こちら</a>。
+              サイトの掲載取下げや修正のご相談、お問い合わせはお手数おかけしますが、
+              <a href="mailto:koko.map.app@gmail.com">koko.map.app@gmail.com</a>
+              までご連絡ください。
+            </p>
+            <p>&nbsp;</p>
+            <h2>その他</h2>
+            <p>
+              その他運営サイト：
+              <a href="https://kawagoe.traveler20.site/">
+                「月がきれい聖地巡礼・川越観光地まとめサイト」
+              </a>
             </p>
           </div>
           <div className="about__actions">

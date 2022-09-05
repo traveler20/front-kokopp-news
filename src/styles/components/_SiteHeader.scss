@@ -3,6 +3,8 @@
   position: sticky;
   top: 0;
   background: var(--color-base-background);
+  border-bottom: solid 0.5px;
+  border-color: rgba($color: var(--color-border), $alpha: 0.1);
   z-index: 99;
 }
 .site-header__inner {
