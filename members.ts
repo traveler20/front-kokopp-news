@@ -78,4 +78,16 @@ export const members: Member[] = [
     githubUsername: "",
     websiteUrl: "https://kawagoe-life.com/",
   },
+  {
+    id: "koedo_info",
+    name: "カワゴエ・マス・メディア",
+    role: "",
+    bio: "",
+    avatarSrc: "/avatars/koedo_info.jpg",
+    sources: ["https://koedo.info/feed/"],
+    twitterUsername: "KawagoePortal",
+    instagramUsername: "kawagoeportal",
+    githubUsername: "",
+    websiteUrl: "https://koedo.info/",
+  },
 ];

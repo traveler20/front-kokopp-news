@@ -2,6 +2,7 @@ export const config = {
   siteMeta: {
     title: "川越ニュースHub",
     teamName: "川越",
+    date: "2022年9月7日",
     description:
       "川越に関するメディアサイトを集約したサイトです。記事を選択すれば該当記事に遷移します。",
   },
@@ -15,12 +16,12 @@ export const config = {
       href: "/",
     },
     {
-      title: "当サイト概要",
+      title: "当サイトについて",
       href: "/about",
     },
-    {
-      title: "ここっぷ",
-      href: "https://kawagoe.traveler20.site/",
-    },
+    // {
+    //   title: "ここっぷ",
+    //   href: "https://kawagoe.traveler20.site/",
+    // },
   ],
 };

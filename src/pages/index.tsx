@@ -25,6 +25,11 @@ const Page: NextPage = () => {
       <section className="home-hero">
         <ContentWrapper>
           <h1 className="home-hero__title">{config.siteMeta.title}</h1>
+          {!!config.siteMeta.date && (
+            <time className="home-hero__date">
+              {config.siteMeta.date}&nbsp;更新
+            </time>
+          )}
           {!!config.siteMeta.description && (
             <p className="home-hero__description">
               {config.siteMeta.description}
