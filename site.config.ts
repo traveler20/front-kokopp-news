@@ -2,7 +2,8 @@ export const config = {
   siteMeta: {
     title: "川越ニュースHub",
     teamName: "川越",
-    date: "2022年9月7日",
+    administrator: "kokopp",
+    date: "2022年9月8日",
     description:
       "川越に関するメディアサイトを集約したサイトです。記事を選択すれば該当記事に遷移します。",
   },

@@ -87,7 +87,7 @@ export const PostList: React.FC<{ items: PostItem[] }> = (props) => {
             onClick={() => setDisplayItemsCount(displayItemsCount + 32)}
             className="post-list-load__button"
           >
-            LOAD MORE
+            もっと読む
           </button>
         </div>
       )}

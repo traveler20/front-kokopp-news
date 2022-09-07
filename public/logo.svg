@@ -1,20 +1,3 @@
 <svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="134" width="532" height="532" rx="266" fill="#73CBF3"/>
-<path d="M181.5 417.5H618.5L400 800L181.5 417.5Z" fill="#73CBF3"/>
-<rect x="175" y="41" width="450" height="450" rx="225" fill="#FFE669"/>
-<mask id="mask0_1264_5386" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="175" y="41" width="450" height="450">
-<rect x="175" y="41" width="450" height="450" rx="225" fill="#FFE669"/>
-</mask>
-<g mask="url(#mask0_1264_5386)">
-<rect x="259" y="16" width="500" height="500" rx="250" fill="#EFEFEF"/>
-</g>
-<rect x="337" y="89" width="50" height="50" rx="25" fill="white"/>
-<rect x="451" y="101" width="88" height="88" rx="44" fill="white"/>
-<rect x="315" y="339" width="88" height="88" rx="44" fill="white"/>
-<rect x="475" y="303" width="50" height="50" rx="25" fill="white"/>
-<rect x="425" y="417" width="24" height="24" rx="12" fill="white"/>
-<rect x="577" y="255" width="24" height="24" rx="12" fill="white"/>
-<rect x="335" y="201" width="78" height="78" rx="39" fill="white"/>
-<rect x="199" y="253" width="50" height="50" rx="25" fill="white"/>
-<rect x="239" y="141" width="24" height="24" rx="12" fill="white"/>
+<rect x="40" y="40" width="720" height="720" rx="360" fill="#73CBF3"/>
 </svg>

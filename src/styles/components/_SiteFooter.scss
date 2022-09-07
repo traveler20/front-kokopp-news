@@ -1,8 +1,9 @@
 .site-footer {
-  margin-top: 5rem;
-  padding: 1rem 0;
-  border-top: solid 1px var(--color-border);
+  margin-top: 80px;
+  padding: 24px 0;
   text-align: center;
-  font-size: 0.9rem;
-  color: var(--color-base-text-lighter);
+  font-size: 12px;
+  color: var(--color-base-background);
+  // border-top: solid 1px var(--color-border);
+  background-color: var(--color-base-text);
 }

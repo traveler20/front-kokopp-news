@@ -2,10 +2,10 @@
   padding: 2.7rem 0 2rem;
 }
 .home-hero__title {
-  font-size: 3.1rem;
+  font-size: 36px;
   line-height: 1.4;
   @include mq(xs) {
-    font-size: 2.6rem;
+    font-size: 28px;
   }
 }
 .home-hero__date {
@@ -15,8 +15,11 @@
 }
 .home-hero__description {
   margin-top: 0.4rem;
-  font-size: 1.2rem;
+  font-size: 18px;
   color: var(--color-base-text-lighter);
+  @include mq(xs) {
+    font-size: 16px;
+  }
 }
 
 .home-section-title-container {
@@ -27,10 +30,10 @@
   border-bottom: solid 1px var(--color-border);
 }
 .home-section-title {
-  font-size: 1.7rem;
+  font-size: 24px;
 }
 .home-section-link {
-  font-size: 1.1rem;
+  font-size: 16px;
   color: var(--color-primary-text);
 }
 .home-members {
