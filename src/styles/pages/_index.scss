@@ -3,6 +3,7 @@
 }
 .home-hero__title {
   font-size: 36px;
+  font-family: roboto, "Roboto", sans-serif;
   line-height: 1.4;
   @include mq(xs) {
     font-size: 28px;

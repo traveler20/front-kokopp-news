@@ -13,9 +13,15 @@
   align-items: center;
   justify-content: space-between;
 }
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 .site-header__logo-link {
   display: flex;
   align-items: center;
+  font-family: roboto, "Roboto", sans-serif;
+  font-weight: bold;
+  @include mq(sm) {
+    font-size: 14px;
+  }
 }
 .site-header__logo-img {
   height: 28px;
@@ -28,4 +34,8 @@
 .site-header__link {
   margin-left: 1.5rem;
   font-size: 0.95rem;
+  @include mq(sm) {
+    font-size: 12px;
+    margin-left: 12px;
+  }
 }

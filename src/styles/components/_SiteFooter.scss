@@ -6,4 +6,6 @@
   color: var(--color-base-background);
   // border-top: solid 1px var(--color-border);
   background-color: var(--color-base-text);
+  position: sticky;
+  top: 100vh;
 }
