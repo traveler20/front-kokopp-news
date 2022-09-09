@@ -1,5 +1,5 @@
 .site-header {
-  padding: 12px 0;
+  padding: 14px 0;
   position: sticky;
   top: 0;
   background: var(--color-base-background);
@@ -18,9 +18,11 @@
   display: flex;
   align-items: center;
   font-family: roboto, "Roboto", sans-serif;
+  font-size: 18px;
   font-weight: bold;
   @include mq(sm) {
-    font-size: 14px;
+    font-size: 16px;
+    letter-spacing: -0.4px;
   }
 }
 .site-header__logo-img {
@@ -34,8 +36,10 @@
 .site-header__link {
   margin-left: 1.5rem;
   font-size: 0.95rem;
+  font-size: 14px;
+  font-weight: bold;
   @include mq(sm) {
-    font-size: 12px;
     margin-left: 12px;
+    letter-spacing: -0.4px;
   }
 }
