@@ -3,7 +3,7 @@ export const config = {
     title: "Kawagoe News",
     teamName: "川越",
     administrator: "kokopp",
-    date: "2022年9月26日",
+    date: "2022年9月28日",
     description:
       "川越に関するメディアサイトを集約したサイトです。記事を選択すれば該当記事に遷移します。",
   },

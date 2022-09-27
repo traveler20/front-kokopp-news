@@ -90,4 +90,16 @@ export const members: Member[] = [
     githubUsername: "",
     websiteUrl: "https://koedo.info/",
   },
+  {
+    id: "hash_kawagoe",
+    name: "#川越(ハッシュカワゴエ)",
+    role: "",
+    bio: "",
+    avatarSrc: "/avatars/hash_kawagoe.jpg",
+    sources: ["https://mag.c-kawagoe.com/feed"],
+    twitterUsername: "coedo_kawagoe",
+    instagramUsername: "coedokawagoe",
+    githubUsername: "",
+    websiteUrl: "https://choooodoii.com/",
+  },
 ];
