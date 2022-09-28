@@ -67,6 +67,18 @@ export const members: Member[] = [
     websiteUrl: "https://kawagoe-info.net/",
   },
   {
+    id: "koedo_biz",
+    name: "川越なび",
+    role: "",
+    bio: "",
+    avatarSrc: "/avatars/koedo_biz.jpg",
+    sources: ["https://www.koedo.biz/feed/"],
+    twitterUsername: "",
+    instagramUsername: "kawagoe_navi",
+    githubUsername: "",
+    websiteUrl: "https://www.koedo.biz/",
+  },
+  {
     id: "kawagoe_life",
     name: "川越のいいところ",
     role: "",
