@@ -114,4 +114,16 @@ export const members: Member[] = [
     githubUsername: "",
     websiteUrl: "https://choooodoii.com/",
   },
+  {
+    id: "kawagoe_com",
+    name: "川越インターネットモール",
+    role: "",
+    bio: "小江戸川越に関する情報メディア",
+    avatarSrc: "/avatars/kawagoe_com.jpg",
+    sources: ["https://www.kawagoe.com/atom.xml"],
+    twitterUsername: "",
+    instagramUsername: "",
+    githubUsername: "",
+    websiteUrl: "https://www.kawagoe.com/",
+  },
 ];
