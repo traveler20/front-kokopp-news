@@ -55,6 +55,18 @@ export const members: Member[] = [
     websiteUrl: "https://ameblo.jp/korokoro0105",
   },
   {
+    id: "kawagoemarket",
+    name: "川越Farmer’s Market",
+    role: "",
+    bio: "",
+    avatarSrc: "/avatars/kawagoemarket.jpg",
+    sources: ["https://ameblo.jp/kawagoemarket/rss.html"],
+    twitterUsername: "",
+    instagramUsername: "",
+    githubUsername: "",
+    websiteUrl: "https://ameblo.jp/kawagoemarket",
+  },
+  {
     id: "kawagoe_info",
     name: "川越水先案内板",
     role: "",
