@@ -15,6 +15,11 @@ jobs:
       - uses: actions/checkout@v2
         with:
           ref: ${{ github.event.inputs.ref }}
+      - name: Recreate all posts
+        shell: bash
+        run: |
+          yarn install
+          yarn build
       - uses: amondnet/vercel-action@v20
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
