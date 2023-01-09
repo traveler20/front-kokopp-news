@@ -20,7 +20,6 @@ jobs:
         run: |
           yarn install
           yarn build
-          yarn dev
       - uses: amondnet/vercel-action@v20
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
