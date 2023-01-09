@@ -7,7 +7,7 @@ on:
         default: "main"
         required: true
   schedule:
-    - cron: "30 22 * * *"
+    - cron: "*/30 * * * *"
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -20,6 +20,7 @@ jobs:
         run: |
           yarn install
           yarn build
+          yarn dev
       - uses: amondnet/vercel-action@v20
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
