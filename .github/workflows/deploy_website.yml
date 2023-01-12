@@ -21,9 +21,9 @@ jobs:
       - name: Recreate all posts
         shell: bash
         run: |
+          npm install -g yarn
           yarn install
           yarn build:posts
-          yarn dev
       - uses: amondnet/vercel-action@v20
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
