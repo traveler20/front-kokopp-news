@@ -20,9 +20,9 @@ jobs:
           node-version: "18"
           cache: yarn
       - run: yarn install --immutable
-      - run: yarn vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
+      # - run: yarn vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
       - run: yarn vercel build --token=${{ secrets.VERCEL_TOKEN }}
-      - run: yarn vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }}
+      # - run: yarn vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }}
       # - name: Recreate all posts
       #   shell: bash
       #   run: |
