@@ -39,5 +39,3 @@ jobs:
           vercel-org-id: ${{ secrets.ORG_ID}}
           vercel-project-id: ${{ secrets.PROJECT_ID}}
           working-directory: ./
-          alias-domains: |
-            news.kawagoe.traveler20.site/
