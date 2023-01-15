@@ -67,6 +67,18 @@ export const members: Member[] = [
     websiteUrl: "https://ameblo.jp/kawagoemarket",
   },
   {
+    id: "kawagoe_ichibangai",
+    name: "川越一番街商店街",
+    role: "",
+    bio: "",
+    avatarSrc: "/avatars/kawagoe_ichibangai.jpg",
+    sources: ["https://kawagoe-ichibangai.com/feed/"],
+    twitterUsername: "",
+    instagramUsername: "",
+    githubUsername: "",
+    websiteUrl: "https://kawagoe-ichibangai.com/",
+  },
+  {
     id: "kawagoe_info",
     name: "川越水先案内板",
     role: "",
