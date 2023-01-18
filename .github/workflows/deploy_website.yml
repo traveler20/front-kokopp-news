@@ -19,12 +19,12 @@ jobs:
         with:
           node-version: "18"
           cache: yarn
-        # - name: Recreate all posts
-        #   shell: bash
-      - run: |
+      - name: Recreate all posts
+        shell: bash
+        run: |
           npm install -g yarn
           yarn install
-          yarn build
+          yarn build --token=${{ secrets.VERCEL_TOKEN }}
       # - name: Recreate all posts
       #   shell: bash
       #   run: |
