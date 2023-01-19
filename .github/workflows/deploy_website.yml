@@ -23,7 +23,7 @@ jobs:
         shell: bash
         run: |
           npm install -g yarn
-          yarn install
+          yarn install --immutable
           yarn build --token=${{ secrets.VERCEL_TOKEN }}
       # - name: Recreate all posts
       #   shell: bash
