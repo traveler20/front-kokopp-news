@@ -19,12 +19,12 @@ jobs:
         with:
           node-version: "18"
           cache: yarn
-      # - name: Recreate all posts
-      #   shell: bash
-      #   run: |
-      #     npm install -g yarn
-      #     yarn install --immutable
-      #     yarn build --token=${{ secrets.VERCEL_TOKEN }}
+      - name: Recreate all posts
+        shell: bash
+        run: |
+          npm install -g yarn
+          yarn install --immutable
+          yarn build --token=${{ secrets.VERCEL_TOKEN }}
       # - name: Recreate all posts
       #   shell: bash
       #   run: |
@@ -33,11 +33,6 @@ jobs:
       #     yarn vercel build --token=${{ secrets.VERCEL_TOKEN }}
       #     yarn vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }}
       - uses: amondnet/vercel-action@v20
-        shell: bash
-        run: |
-          npm install -g yarn
-          yarn install --immutable
-          yarn build --token=${{ secrets.VERCEL_TOKEN }}
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           vercel-args: "--prod"
