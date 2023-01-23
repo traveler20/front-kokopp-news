@@ -25,7 +25,7 @@ jobs:
           npm install -g yarn
           yarn install --immutable
           yarn build --token=${{ secrets.VERCEL_TOKEN }}
-          yarn dev --prebuilt --token=${{ secrets.VERCEL_TOKEN }}
+          yarn dev --token=${{ secrets.VERCEL_TOKEN }}
       # - name: Recreate all posts
       #   shell: bash
       #   run: |
