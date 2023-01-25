@@ -24,7 +24,7 @@ jobs:
         run: |
           npm install -g yarn
           yarn install --immutable
-          yarn build --token=${{ secrets.VERCEL_TOKEN }}
+          yarn build:posts --token=${{ secrets.VERCEL_TOKEN }}
       - uses: amondnet/vercel-action@v20
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
