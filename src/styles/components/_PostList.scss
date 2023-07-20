@@ -111,9 +111,9 @@ $side-padding-sm: 1rem;
   text-align: center;
   font-size: 14px;
   font-weight: 700;
-  color: #fff;
-  background-color: #73cbf3;
-  border: solid 2px #73cbf3;
+  color: var(--color-base-text);
+  background-color: var(--color-primary-background);
+  border: solid 2px var(--color-primary-background);
   border-radius: 50px;
   margin: 0 auto;
   padding: 16px 20px;
@@ -122,7 +122,6 @@ $side-padding-sm: 1rem;
   text-decoration: none;
   position: relative;
   &:hover {
-    color: #73cbf3;
     background-color: transparent;
   }
 }
