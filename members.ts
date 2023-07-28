@@ -5,7 +5,7 @@ export const members: Member[] = [
     id: "kokopp",
     name: "ここっぷ",
     role: "",
-    bio: "運営者サイト",
+    bio: "運営者",
     avatarSrc: "/avatars/kokopp.jpg",
     sources: [
       "https://kawagoe.traveler20.site/feed.xml",
