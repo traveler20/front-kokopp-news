@@ -16,7 +16,7 @@ export const members: Member[] = [
     twitterUsername: "kokopp_design",
     instagramUsername: "kokopp_kawagoe",
     githubUsername: "",
-    websiteUrl: "https://kawagoe.traveler20.site",
+    // websiteUrl: "https://kawagoe.traveler20.site",
   },
   {
     id: "goguynet",
