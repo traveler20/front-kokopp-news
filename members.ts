@@ -7,10 +7,10 @@ export const members: Member[] = [
     role: "",
     bio: "運営者",
     avatarSrc: "/avatars/kokopp.jpg",
-    sources: [
-      "https://kawagoe.traveler20.site/feed.xml",
-      "https://note.com/kokopp/rss",
-    ],
+    // sources: [
+    // "https://kawagoe.traveler20.site/feed.xml",
+    // "https://note.com/kokopp/rss",
+    // ],
     includeUrlRegex: "gallery|article",
     excludeUrlRegex: "blog",
     twitterUsername: "kokopp_design",
