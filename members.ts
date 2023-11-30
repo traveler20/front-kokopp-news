@@ -13,10 +13,10 @@ export const members: Member[] = [
     // ],
     includeUrlRegex: "gallery|article",
     excludeUrlRegex: "blog",
-    twitterUsername: "kokopp_design",
+    twitterUsername: "",
     instagramUsername: "kokopp_kawagoe",
     githubUsername: "",
-    // websiteUrl: "https://kawagoe.traveler20.site",
+    websiteUrl: "https://www.threads.net/@kokopp_kawagoe",
   },
   {
     id: "goguynet",
