@@ -9,7 +9,7 @@ export const config = {
   },
   siteRoot:
     process.env.NODE_ENV === "production"
-      ? "https://news.kawagoe.traveler20.site/"
+      ? "https://news.kawagoe.fun/"
       : "http://localhost:3000",
   headerLinks: [
     {
