@@ -29,9 +29,9 @@ const Page: NextPage = () => {
             <p>&nbsp;</p>
             <h2>その他</h2>
             <p>
-              その他運営サイト：
-              <a href="https://kawagoe.traveler20.site/">
-                「月がきれい聖地巡礼・川越観光地まとめサイト」
+              Instagram：
+              <a href="https://www.instagram.com/kokopp_kawagoe/">
+                @kokopp_kawagoe
               </a>
             </p>
           </div>
