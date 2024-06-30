@@ -8,7 +8,7 @@
   text-align: center;
   font-size: 14px;
   font-weight: 700;
-  color: var(--color-base-text);
+  color: var(--color-base-background-lighter);
   background-color: var(--color-primary-background);
   border: solid 2px var(--color-primary-background);
   border-radius: 50px;
@@ -19,6 +19,6 @@
   text-decoration: none;
   position: relative;
   &:hover {
-    background-color: transparent;
+    opacity: 0.7;
   }
 }
