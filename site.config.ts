@@ -1,6 +1,6 @@
 export const config = {
   siteMeta: {
-    title: "Kawagoe News",
+    title: "川越ニュース",
     teamName: "川越",
     administrator: "ここっぷ",
     date: "7月1日",
