@@ -20,9 +20,9 @@ export const config = {
       title: "当サイトについて",
       href: "/about",
     },
-    // {
-    //   title: "ここっぷ",
-    //   href: "https://kawagoe.traveler20.site/",
-    // },
+    {
+      title: "川越マガジン",
+      href: "https://kawagoe.fun/magazine/",
+    },
   ],
 };
