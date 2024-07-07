@@ -7,16 +7,17 @@ export const members: Member[] = [
     role: "",
     bio: "運営者",
     avatarSrc: "/avatars/kokopp.jpg",
-    // sources: [
-    // "https://kawagoe.traveler20.site/feed.xml",
-    // "https://note.com/kokopp/rss",
-    // ],
+    sources: [
+      "https://kawagoe.fun/magazine/feed/",
+      // "https://kawagoe.traveler20.site/feed.xml",
+      // "https://note.com/kokopp/rss",
+    ],
     // includeUrlRegex: "gallery|article",
     // excludeUrlRegex: "blog",
     twitterUsername: "",
     instagramUsername: "kokopp_kawagoe",
     githubUsername: "",
-    websiteUrl: "https://www.threads.net/@kokopp_kawagoe",
+    websiteUrl: "https://kawagoe.fun/magazine/",
   },
   {
     id: "goguynet",
