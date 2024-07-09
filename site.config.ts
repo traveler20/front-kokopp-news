@@ -21,7 +21,7 @@ export const config = {
       href: "/about",
     },
     {
-      title: "川越マガジン",
+      title: "マガジン",
       href: "https://kawagoe.fun/magazine/",
     },
   ],
