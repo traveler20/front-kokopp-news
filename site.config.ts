@@ -3,7 +3,7 @@ export const config = {
     title: "川越ニュース",
     teamName: "川越",
     administrator: "ここっぷ",
-    date: "8月4日",
+    date: "8月5日",
     description:
       "川越に関するメディアサイトを集約したサイトです。記事を選択すれば該当記事に遷移します。",
   },
