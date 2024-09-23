@@ -33,7 +33,7 @@ export const members: Member[] = [
   },
   {
     id: "kawagoe_blog",
-    name: "川越ノオト",
+    name: "川越ノヲト。",
     role: "",
     bio: "",
     avatarSrc: "/avatars/kawagoe_blog.jpg",
