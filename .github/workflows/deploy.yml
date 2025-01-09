@@ -1,0 +1,39 @@
+name: Scheduled Build and Deploy
+
+on:
+  schedule:
+    # 毎日7:30にトリガーする (UTCは-9時間)
+    - cron: '30 22 * * *'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # コードをチェックアウトする
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 必要なNode.jsバージョンをセットアップ
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16  # 使用しているNode.jsバージョンに合わせて変更
+
+      # パッケージのインストール
+      - name: Install dependencies
+        run: npm install
+
+      # ビルド
+      - name: Build project
+        run: npm run build
+
+      # Vercel CLIをインストール
+      - name: Install Vercel CLI
+        run: npm install -g vercel
+
+      # Vercelにデプロイ
+      - name: Deploy to Vercel
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: vercel --prod --token $VERCEL_TOKEN
