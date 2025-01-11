@@ -2,7 +2,8 @@ name: build-and-deploy
 
 on:
   schedule:
-    - cron: '30 7 * * *' # 毎日7時30分に実行
+    # - cron: '30 7 * * *' # 毎日7時30分に実行
+    - cron: "*/30 * * * *" # 30分置きに実行
   workflow_dispatch: # 手動トリガーも可能
 
 jobs:
