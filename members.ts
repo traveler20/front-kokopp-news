@@ -80,6 +80,21 @@ export const members: Member[] = [
     websiteUrl: "https://mag.c-kawagoe.com/",
   },
   {
+    id: "saitama_city_marathon",
+    name: "埼玉マガジン 川越市",
+    role: "",
+    bio: "",
+    avatarSrc: "/avatars/saitama_city_marathon.jpg",
+    sources: [
+      "https://saitama-city-marathon.jp/tag/%E5%B7%9D%E8%B6%8A%E5%B8%82/feed/",
+    ],
+    twitterUsername: "saitamamagagin",
+    instagramUsername: "saitama._.magajin",
+    githubUsername: "",
+    websiteUrl:
+      "https://saitama-city-marathon.jp/tag/%E5%B7%9D%E8%B6%8A%E5%B8%82/",
+  },
+  {
     id: "kawagoemarket",
     name: "川越Farmer’s Market",
     role: "",
