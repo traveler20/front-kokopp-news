@@ -3,9 +3,9 @@ import { Member } from "@src/types";
 export const members: Member[] = [
   {
     id: "kokopp",
-    name: "ここっぷ",
+    name: "川越マガジン",
     role: "",
-    bio: "運営者",
+    bio: "川越ニュース運営",
     avatarSrc: "/avatars/kokopp.jpg",
     sources: [
       "https://kawagoe.fun/magazine/feed/",
