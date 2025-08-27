@@ -23,7 +23,7 @@ const Page: NextPage = () => {
             <h2>お問い合わせ</h2>
             <p>
               サイトの掲載取下げや修正のご相談、お問い合わせはお手数おかけしますが、
-              <a href="mailto:koko.map.app@gmail.com">koko.map.app@gmail.com</a>
+              <a href="mailto:hello@kawagoe.fun">hello@kawagoe.fun</a>
               までご連絡ください。
             </p>
             <p>&nbsp;</p>
