@@ -14,7 +14,7 @@ export const members: Member[] = [
     ],
     // includeUrlRegex: "gallery|article",
     // excludeUrlRegex: "blog",
-    twitterUsername: "",
+    twitterUsername: "kawagoemagazine",
     instagramUsername: "kokopp_kawagoe",
     githubUsername: "",
     websiteUrl: "https://kawagoe.fun/magazine/",
