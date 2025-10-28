@@ -86,13 +86,13 @@ export const members: Member[] = [
     bio: "",
     avatarSrc: "/avatars/saitama_city_marathon.jpg",
     sources: [
-      "https://saitama-city-marathon.jp/tag/%E5%B7%9D%E8%B6%8A%E5%B8%82/feed/",
+      "https://saitama-city-marathon.jp/tag/kawagoesi/feed/",
     ],
     twitterUsername: "saitamamagagin",
     instagramUsername: "saitama._.magajin",
     githubUsername: "",
     websiteUrl:
-      "https://saitama-city-marathon.jp/tag/%E5%B7%9D%E8%B6%8A%E5%B8%82/",
+      "https://saitama-city-marathon.jp/tag/kawagoesi/",
   },
   {
     id: "kawagoemarket",
