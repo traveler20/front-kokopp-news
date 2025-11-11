@@ -85,14 +85,26 @@ export const members: Member[] = [
     role: "",
     bio: "",
     avatarSrc: "/avatars/saitama_city_marathon.jpg",
-    sources: [
-      "https://saitama-city-marathon.jp/tag/kawagoesi/feed/",
-    ],
+    sources: ["https://saitama-city-marathon.jp/tag/kawagoesi/feed/"],
     twitterUsername: "saitamamagagin",
     instagramUsername: "saitama._.magajin",
     githubUsername: "",
+    websiteUrl: "https://saitama-city-marathon.jp/tag/kawagoesi/",
+  },
+  {
+    id: "jikomanpuku",
+    name: "食べて埼玉 川越市",
+    role: "",
+    bio: "",
+    avatarSrc: "/avatars/jikomanpuku.jpg",
+    sources: [
+      "https://jikomanpuku.com/category/%E5%9F%BC%E7%8E%89%E5%B8%82%E7%94%BA%E6%9D%91%E5%88%A5/%E5%B7%9D%E8%B6%8A%E5%B8%82/feed/",
+    ],
+    twitterUsername: "komashi",
+    instagramUsername: "komashi_morituke",
+    githubUsername: "",
     websiteUrl:
-      "https://saitama-city-marathon.jp/tag/kawagoesi/",
+      "https://jikomanpuku.com/category/%e5%9f%bc%e7%8e%89%e5%b8%82%e7%94%ba%e6%9d%91%e5%88%a5/%e5%b7%9d%e8%b6%8a%e5%b8%82/",
   },
   {
     id: "kawagoemarket",
