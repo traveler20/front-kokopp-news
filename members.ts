@@ -119,6 +119,18 @@ export const members: Member[] = [
     websiteUrl: "https://ameblo.jp/kawagoemarket",
   },
   {
+    id: "hanavi",
+    name: "HANAVi KAWAGOE",
+    role: "",
+    bio: "",
+    avatarSrc: "/avatars/hanavi.jpg",
+    sources: ["https://hanavi.art/portal/feed/"],
+    twitterUsername: "",
+    instagramUsername: "https://www.instagram.com/hanavi_portal/",
+    githubUsername: "",
+    websiteUrl: "https://hanavi.art/portal/",
+  },
+  {
     id: "kawagoe_ichibangai",
     name: "川越一番街商店街",
     role: "",
