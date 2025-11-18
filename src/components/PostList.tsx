@@ -42,7 +42,7 @@ const PostLink: React.FC<{ item: PostItem }> = (props) => {
         href={link}
         className="post-link__main-link"
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener noreferrer nofollow"
       >
         <h2 className="post-link__title">{title}</h2>
         {hostname && (
