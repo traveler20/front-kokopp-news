@@ -23,8 +23,10 @@ const Page: NextPage = () => {
             <h2>お問い合わせ</h2>
             <p>
               サイトの掲載取下げや修正のご相談、お問い合わせはお手数おかけしますが、
-              <a href="mailto:hello@kawagoe.fun">hello@kawagoe.fun</a>
-              までご連絡ください。
+              <a href="https://kawagoe.fun/magazine/contact/">
+                川越マガジンのお問い合わせページ
+              </a>
+              にてご連絡ください。
             </p>
             <p>&nbsp;</p>
             <h2>その他</h2>
