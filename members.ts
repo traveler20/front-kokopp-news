@@ -80,6 +80,18 @@ export const members: Member[] = [
     websiteUrl: "https://mag.c-kawagoe.com/",
   },
   {
+    id: "kawagoe_tv",
+    name: "川越TV",
+    role: "",
+    bio: "",
+    avatarSrc: "/avatars/kawagoe_tv.jpg",
+    sources: ["https://kawagoe.tv/feed/"],
+    twitterUsername: "kawagoe_tv",
+    instagramUsername: "kawagoe.tv",
+    githubUsername: "",
+    websiteUrl: "https://kawagoe.tv/",
+  },
+  {
     id: "saitama_city_marathon",
     name: "埼玉マガジン 川越市",
     role: "",
