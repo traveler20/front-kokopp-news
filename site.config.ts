@@ -5,7 +5,7 @@ export const config = {
     administrator: "kokopp",
     date: "3月18日",
     description:
-      "川越に関するメディアサイトを集約したサイトです。記事を選択すれば該当記事に遷移します。",
+      "川越のメディアサイトを集約したサイトです。記事を選択すれば該当記事に遷移します。",
   },
   siteRoot:
     process.env.NODE_ENV === "production"
